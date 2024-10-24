@@ -127,17 +127,12 @@ body {
 
 @media (max-width: 1200px){
     .cabecalho{
-        padding: 5% 0;
+        padding: 5% 5%;
     }
 
     .cabecalho__menu{
-        display: flex;
         justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
         gap: 20px;
-        width: 100%;
-        overflow: hidden;
     }
 
     .cabecalho__menu__link{
@@ -176,7 +171,20 @@ body {
         font-size: 1rem;
     }
 }
+
+@media (max-width: 480px) {
+    .cabecalho__menu {
+        gap: 10px; 
+    }
     
+    .cabecalho__menu__link {
+        font-size: 0.875rem;
+    }
+
+    .apresentacao__links__navegacao {
+        width: 100%;
+    }
+}
 
 
 
