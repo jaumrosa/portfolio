@@ -132,8 +132,15 @@ body {
 
     .cabecalho__menu{
         display: flex;
-        justify-content: center;
-        gap: 40px;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    .cabecalho__menu li {
+        margin: 0 20px;
     }
     
     .apresentacao{
