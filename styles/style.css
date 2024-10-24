@@ -127,20 +127,36 @@ body {
 
 @media (max-width: 1200px){
     .cabecalho{
-        padding: 10%;
+        padding: 5% 0;
     }
 
     .cabecalho__menu{
         justify-content: center;
+        gap: 40px;
     }
     
     .apresentacao{
         flex-direction: column-reverse;
         padding: 5%;
+        gap: 40px;
     }
 
     .apresentacao__conteudo{
-        width: auto;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .apresentacao__foto{
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .apresentacao__links{
+        width: 100%;
+    }
+
+    .apresentacao__links__navegacao{
+        width: 80%;
     }
 }
     
