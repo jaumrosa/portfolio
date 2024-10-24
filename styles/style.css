@@ -133,7 +133,6 @@ body {
     .cabecalho__menu{
         justify-content: center;
     }
-}
     
     .apresentacao{
         flex-direction: column-reverse;
@@ -143,7 +142,7 @@ body {
     .apresentacao__conteudo{
         width: auto;
     }
-
+}
     
 
 
